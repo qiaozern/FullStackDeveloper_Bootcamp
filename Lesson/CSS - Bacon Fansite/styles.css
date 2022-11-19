@@ -1,3 +1,11 @@
+/*
+Note:
+# Use ID to identify elements only a single one of them on particular page.
+# Use CLASS to group related element that are all going to behave a similar style.
+
+# id must be an unique id and only be used it once, cannot be repeated, but class can be able to use as much as you wish
+*/
+
 /****************** TAG SELECTORS ******************/
 
 h1 {
@@ -5,11 +13,11 @@ h1 {
     font-size: 200px;
 }
 
-/* 
-img {
-    background-color: red;
+
+img:hover {
+    background-color: gold;
 } 
-*/
+
 
 /****************** CLASS SELECTORS ******************/
 
@@ -19,4 +27,18 @@ img {
 
 .broccoli {
     background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+/****************** ID SELECTORS ******************/
+
+#heading {
+    color: blue;
+}
+
+#big {
+    font-size: 1000px;
 }
